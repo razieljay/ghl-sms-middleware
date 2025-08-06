@@ -2,7 +2,7 @@ export default async function handler(req, res) {
   const { name, phone, appointment_date } = req.body;
 
   const payload = {
-    apikey: "YOUR_SEMAPHORE_API_KEY",
+    apikey: "c9af5aca6436c279a114e09331938aa3",
     number: phone,
     message: `Hi ${name}, this is a reminder for your appointment on ${appointment_date}.`,
     sendername: "YOUR_APPROVED_SENDER_NAME"
